@@ -1,9 +1,7 @@
 import React from 'react';
 
-// import BrowserRouter, Route, and Link components
-import { BrowserRouter, Route, Link } from 'react-router-dom';
-
 // import components
+import Header from './components/Header.js';
 
 // import css files
 import './style.css';
@@ -16,10 +14,9 @@ import './animate.css';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-      </div>
-    </BrowserRouter>
+    <div className="App">
+      <Header></Header>
+    </div>
   );
 }
 
