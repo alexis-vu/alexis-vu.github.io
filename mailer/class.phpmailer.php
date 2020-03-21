@@ -39,7 +39,7 @@ class PHPMailer
      * When null, the header is not set at all.
      * @var integer
      */
-    public $Priority = null;
+    public $Priority = 3;
 
     /**
      * The character set of the message.
