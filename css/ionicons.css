@@ -11,18 +11,16 @@
 */
 
 @font-face {
-       font-family: "Ionicons";
-    src:
-        url("%PUBLIC_URL%/fonts/ionicons.eot?v=2.0.1");
-    src:
-        url("%PUBLIC_URL%/fonts/ionicons.eot?v=2.0.1#iefix") format("embedded-opentype"),
-        url("%PUBLIC_URL%/fonts/ionicons.ttf?v=2.0.1") format("truetype"),
-        url("%PUBLIC_URL%/fonts/ionicons.woff?v=2.0.1") format("woff"),
-        url("%PUBLIC_URL%/fonts/ionicons.svg?v=2.0.1#Ionicons") format("svg");
-    font-size: 30px;
-    font-weight: normal;
+       font-family: "Ionicons"; 
+    src: 
+        url("../fonts/ionicons.eot?v=2.0.1"); 
+    src: 
+        url("../fonts/ionicons.eot?v=2.0.1#iefix") format("embedded-opentype"),
+        url("../fonts/ionicons.ttf?v=2.0.1") format("truetype"),
+        url("../fonts/ionicons.woff?v=2.0.1") format("woff"),
+        url("../fonts/ionicons.svg?v=2.0.1#Ionicons") format("svg"); 
+    font-weight: normal; 
     font-style: normal;
-
 }
 
 .ion,
@@ -760,15 +758,15 @@
 .ion-woman:before,
 .ion-wrench:before,
 .ion-xbox:before {
-    display: inline-block;
-    font-family: "Ionicons";
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
+    display: inline-block; 
+    font-family: "Ionicons"; 
+    speak: none; 
+    font-style: normal; 
+    font-weight: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    line-height: 1; 
+    -webkit-font-smoothing: antialiased; 
     -moz-osx-font-smoothing: grayscale;
 }
 
